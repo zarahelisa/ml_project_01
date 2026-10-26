@@ -1,0 +1,17 @@
+[project]
+name = "ml-project-01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zarahelisa", email = "zarah.dominguez@thinkanova.org" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+ml-project-01 = "ml_project_01:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
