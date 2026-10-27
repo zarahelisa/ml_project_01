@@ -7,7 +7,13 @@ authors = [
     { name = "zarahelisa", email = "zarah.dominguez@thinkanova.org" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 ml-project-01 = "ml_project_01:main"
