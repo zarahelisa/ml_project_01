@@ -1,7 +1,7 @@
 [project]
 name = "ml-project-01"
 version = "0.1.0"
-description = "Add your description here"
+description = "House price prediction on the Kaggle Ames dataset: data cleaning, EDA and regularised linear regression (OLS, Ridge, Lasso)"
 readme = "README.md"
 authors = [
     { name = "zarahelisa", email = "zarah.dominguez@thinkanova.org" }
