@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "House price prediction on the Kaggle Ames dataset: data cleaning, EDA and regularised linear regression (OLS, Ridge, Lasso)"
 readme = "README.md"
 authors = [
-    { name = "zarahelisa", email = "zarah.dominguez@thinkanova.org" }
+    { name = "Zarah Dominguez" }
 ]
 requires-python = ">=3.14"
 dependencies = [
