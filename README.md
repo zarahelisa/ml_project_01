@@ -40,7 +40,7 @@ Before filling a missing value, I checked what it actually meant by cross-tabula
 |---|---|---|
 | NA means "doesn't have it" | `PoolQC` is NA exactly when `PoolArea = 0`. Same for `FireplaceQu` and `Fireplaces = 0` | Filled with `'None'` / `0` |
 | Very sparse feature | Pool exists for only 0.4% of houses | Replaced by a binary `has_pool` flag |
-| Real missing data | `LotFrontage` (16.6% missing) | **Neighbourhood median**, computed on train only |
+| Real missing data | `LotFrontage` (16.7% missing) | **Neighbourhood median**, computed on train only |
 | Inconsistent records | A house has a garage type but no area; masonry veneer area = 1 sq ft | Handled case by case and documented |
 | Redundant variable | `GarageYrBlt`: 0.83 correlation with `YearBuilt`, equal in 76% of houses, contains an impossible year (2207) | Dropped |
 | A few scattered NAs | 11 values across 7 categorical columns | Mode of the **training** set |
